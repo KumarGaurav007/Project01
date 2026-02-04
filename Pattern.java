@@ -83,6 +83,32 @@ public class Pattern {
         }
     }
 
+    static void p7() {
+        int n = 5;
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= n; col++) {
+                if (col <= row) {
+                    System.out.print(col);
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    static void p9() {
+        int n = 5;
+        for (int row = 0; row <= n; row++) {
+            for (int col = 0; col <= n; col++) {
+                if (col <= n - row) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         p1();
         System.out.println();
@@ -96,6 +122,9 @@ public class Pattern {
         System.out.println();
         p6();
         System.out.println();
-
+        p7();
+        System.out.println();
+        p9();
+        System.out.println();
     }
 }
