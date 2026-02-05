@@ -68,12 +68,32 @@ This is a DSA with JAVA repository.
 
 ## Pattern 09 --> p9()
 ```text
-    *
-   * *
-  * * *
- * * * *
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+```
+
+## Pattern 10 --> p10()
+```text
+   *
+ * *
+   *
+   *
+ *****
+```
+
+## Pattern 11 --> p11()
+```text
+ *   *
+ *   *
+ *****
+     *
+     *
 ```
 
 ## Author
 <b> <i>Gaurav kumar </i> </b> <br>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gaurav%20Kumar-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gaurav-kumar-25-oct/)
